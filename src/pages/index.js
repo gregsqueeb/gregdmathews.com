@@ -34,6 +34,7 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet title={get(this, "props.data.site.siteMetadata.title")} />
         <Bio />
+        <p>Hello!</p>
         <ul>
           {pageLinks}
         </ul>
