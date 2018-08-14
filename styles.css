@@ -132,3 +132,17 @@ nav {
     bottom: -31px;
     margin-left: 10px;
 }
+footer {
+    background: #1C1C26;
+    padding: 40px;
+    text-align: center;
+}
+footer .nav-item {
+    color: #fff;
+    border-bottom-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 40px;
+}
+footer .nav-item:last-child {
+    margin-right: 0px;
+}
