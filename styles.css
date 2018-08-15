@@ -226,6 +226,78 @@ footer .nav-item:last-child {
 
 
 
+/* 600px and below */
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 100vh;
+        padding: 28px;
+    }
+    h1, .selected-work-header {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .selected-work-header {
+        margin-bottom: 40px;
+    }
+    .large-body {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .angle-flair {
+        left: -12px;
+    }
+    .angle-flair.right {
+        right: -12px;
+    }
+    .past-work {
+        padding: 40px 16px;
+    }
+    .video-background {
+        width: auto;
+        padding-bottom: 56.25%;
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        position: static;
+    }
+    .pocket {
+        display: none;
+    }
+    .work-text-container {
+        height: auto;
+        display: block;
+        background: #fff;
+        box-shadow: 0 2px 20px 0 rgba(0,0,0,0.10);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        padding: 24px 16px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .work-text-container-right .work-text, .work-text {
+        position: static;
+        padding: 0;
+        max-width: 320px;
+    }
+    .work-text-container-right .work-text {
+        transform: translate(0px, 0px);
+        text-align: left;
+    }
+    .work-example {
+        margin-bottom: 40px;
+    }
+    footer .nav-item {
+        margin-right: 24px;
+    }
+}
+
+
+
 
 @keyframes arrow-bounce {
     0% {
