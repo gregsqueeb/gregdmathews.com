@@ -30,6 +30,90 @@
                 <span class="angle-flair right"></span>
             </div>
         </div>
+        <div class="past-work">
+            <h2 class="selected-work-header">Selected Work</h1>
+            <div class="work-example">
+                <div class="video-background" style="background: url('./smash.jpg') no-repeat center center; background-size: cover;">
+                    <!-- <video class="masthead-video" autoplay loop muted poster="./smash.jpg">
+                        <source src="./dreamscapes.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+                <div class="work-text-container work-text-container-right">
+                    <img class="pocket" src="./pocket-right.svg" />
+                    <div class="work-text">
+                        <h2>smash.gg</h2>
+                        <p>Epowering esports communities by enabling easy to run large scale tournaments</p>
+                        <a href="https://smash.gg">view site</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-example">
+                    <div class="video-background" style="background: url('./nerdwallet.jpg') no-repeat center center; background-size: cover;">
+                    <!-- <video class="masthead-video-2" autoplay loop muted poster="./nerdwallet.jpg">
+                        <source src="./C0500.MP4" type="video/mp4">
+                    </video> -->
+                </div>
+                <div class="work-text-container">
+                    <img class="pocket" src="./pocket-left.svg" />
+                    <div class="work-text">
+                        <h2>Nerdwallet</h2>
+                        <p>Designing Nerdwallet’s first steps into credit score and creating a membership experience</p>
+                        <a href="https://nerdwallet.com/home">view site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-example">
+                    <div class="video-background" style="background: url('./babylist.jpg') no-repeat center center; background-size: cover;">
+                        <!-- <video class="masthead-video-3" autoplay loop muted poster="./evo.jpg">
+                            <source src="./dreamscapes.mp4" type="video/mp4">
+                        </video> -->
+                    </div>
+                    <div class="work-text-container work-text-container-right">
+                        <img class="pocket" src="./pocket-right.svg" />
+                        <div class="work-text">
+                            <h2>Babylist</h2>
+                            <p>Epowering esports communities by enabling easy to run large scale tournaments</p>
+                            <a href="https://babylist.com">view site</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-example">
+                        <div class="video-background" style="background: url('./smileage.jpg') no-repeat center center; background-size: cover;">
+                        <!-- <video class="masthead-video-4" autoplay loop muted poster="./smileage.jpg">
+                            <source src="./C0500.MP4" type="video/mp4">
+                        </video> -->
+                    </div>
+                    <div class="work-text-container">
+                        <img class="pocket" src="./pocket-left.svg" />
+                        <div class="work-text">
+                            <h2>Smileage</h2>
+                            <p>The simplest way to log your car’s fuel consumption</p>
+                            <a href="http://www.smileageapp.com/">Get the app</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-example">
+                        <div class="video-background" style="background: url('./done.jpg') no-repeat center center; background-size: cover;">
+                            <!-- <video class="masthead-video-5" autoplay loop muted poster="./done.jpg">
+                                <source src="./dreamscapes.mp4" type="video/mp4">
+                            </video> -->
+                        </div>
+                        <div class="work-text-container work-text-container-right">
+                            <img class="pocket" src="./pocket-right.svg" />
+                            <div class="work-text">
+                                <h2>DONE</h2>
+                                <p>An instructional youtube channel centered around learning a new skill of working on cars and drifting</p>
+                                <a href="https://www.youtube.com/c/donegrp">view Channel</a>
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+
         <footer>
             <nav>
                 <a class="nav-item" href="https://www.youtube.com/c/donegrp">youtube</a>
@@ -37,6 +121,18 @@
                 <a class="nav-item" href="http://dribbble.com/gregsqueeb">dribbble</a>
             </nav>
         </footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="./covervid.min.js"></script>
+        <script type="text/javascript">
+            // If using jQuery
+                // $('.masthead-video').coverVid(1920, 1080);
+            // If not using jQuery (Native Javascript)
+                coverVid(document.querySelector('.masthead-video'), 640, 360);
+                coverVid(document.querySelector('.masthead-video-2'), 1920, 1080);
+                coverVid(document.querySelector('.masthead-video-3'), 640, 360);
+                coverVid(document.querySelector('.masthead-video-4'), 1920, 1080);
+                coverVid(document.querySelector('.masthead-video-5'), 640, 360);
+        </script>
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
