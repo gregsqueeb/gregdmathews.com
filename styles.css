@@ -74,6 +74,8 @@ h1, .selected-work-header {
     line-height: 60px;
     font-weight: 900;
     margin-bottom: 24px;
+}
+.homepage h1, .homepage .selected-work-header {
     animation: fade-in .75s .75s forwards;
     opacity: 0;
 }
@@ -91,6 +93,8 @@ p {
     font-size: 16px;
     color: #8D8D92;
     line-height: 26px;
+}
+.work-text p {
     margin-bottom: 12px;
 }
 .flair {
@@ -106,6 +110,8 @@ p {
     color: #8D8D92;
     line-height: 36px;
     max-width: 500px;
+}
+.homepage .large-body {
     opacity: 0;
     animation: fade-in .75s .75s forwards;
 }
@@ -128,9 +134,11 @@ p {
 }
 nav {
     align-self: flex-end;
+    height: 16px;
+}
+.homepage nav {
     opacity: 0;
     animation: fade-in .75s .75s forwards;
-    height: 16px;
 }
 .nav-item {
     text-align: right;
@@ -327,7 +335,78 @@ header {
     margin-right: 12px;
     transform: translateY(-1px);
 }
-
+.first-section {
+    background: #F9F9F9;
+    display: flex;
+}
+.side-bar {
+    padding: 80px 40px;
+    width: 300px;
+}
+.company-name {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.attribute {
+    color: #1C1C26;
+    margin-bottom: 8px;
+    line-height: 20px;
+}
+.label {
+    font-weight: 900;
+    font-size: 12px;
+    color: #868C91;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+.header-image {
+    margin-bottom: 64px;
+}
+.case-study-header {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.column-text {
+    padding: 0 40px;
+    max-width: 648px;
+}
+.case-study-body {
+    color: #1C1C26;
+    opacity: 0.7;
+    font-size: 20px;
+    line-height: 30px;
+}
+.case-study {
+    padding: 120px 0;
+}
+.case-study-first {
+    padding: 80px 0 120px;
+}
+.case-study-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.case-study-darker {
+    background: #F4F4F4;
+}
+.mbl {
+    margin-bottom: 80px;
+}
+.mbm {
+    margin-bottom: 40px;
+}
+.content-left-image {
+    width: 808px;
+    display: flex;
+}
+.content-left-image .content {
+    padding-left: 40px;
+}
 
 
 
