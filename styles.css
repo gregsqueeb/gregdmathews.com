@@ -338,6 +338,7 @@ header {
 .first-section {
     background: #F9F9F9;
     display: flex;
+    justify-content: center;
 }
 .side-bar {
     padding: 80px 40px;
