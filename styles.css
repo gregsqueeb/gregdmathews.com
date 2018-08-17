@@ -409,6 +409,15 @@ header {
 .content-left-image .content {
     padding-left: 40px;
 }
+.center-image-wide {
+    max-width: 808px;
+}
+.left-image-md-container {
+    width: 300px;
+}
+.left-image-md {
+    max-width: 300px;
+}
 
 
 
