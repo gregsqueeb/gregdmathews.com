@@ -365,6 +365,7 @@ header {
 }
 .header-image {
     margin-bottom: 64px;
+    max-width: 724px;
 }
 .case-study-header {
     font-weight: 400;
