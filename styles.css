@@ -367,6 +367,9 @@ header {
     margin-bottom: 64px;
     max-width: 724px;
 }
+.header-image-shadow {
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.10);
+}
 .case-study-header {
     font-weight: 400;
     margin-bottom: 24px;
@@ -380,6 +383,12 @@ header {
     opacity: 0.7;
     font-size: 20px;
     line-height: 30px;
+}
+.case-study-body a {
+    font-size: inherit;
+    color: inherit;
+    text-transform: inherit;
+    font-weight: inherit;
 }
 .case-study {
     padding: 120px 0;
@@ -397,26 +406,64 @@ header {
     background: #F4F4F4;
 }
 .mbl {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .mbm {
     margin-bottom: 40px;
 }
-.content-left-image {
+.content-left-image, .content-right-image {
     width: 808px;
     display: flex;
 }
 .content-left-image .content {
     padding-left: 40px;
 }
+.content-right-image .content {
+    padding-right: 40px;
+}
 .center-image-wide {
     max-width: 808px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.10);
 }
 .left-image-md-container {
     width: 300px;
 }
 .left-image-md {
     max-width: 300px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.10);
+    margin-bottom: 16px;
+}
+.left-image-md:last-child {
+    margin-bottom: 0px;
+}
+.four-wide {
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+}
+.fourth-image-container {
+    width: calc((100%-120px)/4);
+    margin-right: 40px;
+}
+.fourth-image-container:last-child {
+    margin-right: 0px;
+}
+.fourth-image {
+    width: 100%;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.10);
+}
+.image-link {
+    border-bottom: none;
+}
+.image-context {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    opacity: .7;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-decoration: underline;
 }
 
 
