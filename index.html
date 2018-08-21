@@ -22,15 +22,17 @@
                 <span class="angle-flair left"></span>
                 <div class="arrow-flair-container">
                     <div class="angle-down"></div>
-                    <div class="arrow-container">
-                        <div class="arrow angle-down"></div>
-                        <div class="arrow-stem"></div>
-                    </div>
+                    <a href="#work">
+                        <div class="arrow-container">
+                            <div class="arrow angle-down"></div>
+                            <div class="arrow-stem"></div>
+                        </div>
+                    </a>
                 </div>
                 <span class="angle-flair right"></span>
             </div>
         </div>
-        <div class="past-work">
+        <div id="work" class="past-work">
             <h2 class="selected-work-header">Selected Work</h1>
             <div class="work-example">
                 <div class="video-background" style="background: url('./smash.jpg') no-repeat center center; background-size: cover;">
@@ -123,15 +125,19 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="./covervid.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
         <script type="text/javascript">
+            var scroll = new SmoothScroll('a[href*="#"]');
             // If using jQuery
                 // $('.masthead-video').coverVid(1920, 1080);
             // If not using jQuery (Native Javascript)
+            
                 coverVid(document.querySelector('.masthead-video'), 640, 360);
                 coverVid(document.querySelector('.masthead-video-2'), 1920, 1080);
                 coverVid(document.querySelector('.masthead-video-3'), 640, 360);
                 coverVid(document.querySelector('.masthead-video-4'), 1920, 1080);
                 coverVid(document.querySelector('.masthead-video-5'), 640, 360);
+                
         </script>
 		<script type="text/javascript">
 
