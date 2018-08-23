@@ -440,6 +440,7 @@ header {
     display: flex;
     max-width: 900px;
     justify-content: center;
+    padding: 0 20px;
 }
 .fourth-image-container {
     width: calc((100% - 120px) / 4);
@@ -470,6 +471,7 @@ header {
     .side-bar {
         padding: 40px 20px;
         width: 100%;
+        
     }
     .first-section {
         flex-direction: column;
@@ -478,11 +480,11 @@ header {
     .label:last-child {
         margin-bottom: 0;
     }
-    .case-study-first {
-        padding: 0 0 60px;
-    }
     .case-study {
         padding: 60px 0;
+    }
+    .case-study-first {
+        padding: 0 0 60px;
     }
     .header-image {
         width: 100%;
@@ -537,8 +539,29 @@ header {
         margin-right: 0px;
     }
 }
-
-
+@media only screen and (max-width: 1142px) {
+    .header-image {
+        width: 100%;
+    }
+    .content-left-image, .content-right-image {
+        width: 100%;
+    }
+    .content-left-image .content, .content-right-image .content {
+        padding: 0 40px;
+    }
+    .left-image-md-container {
+        width: 200px;
+    }
+    .first-section .column-text {
+        padding-left: 0;
+    }
+    .left-image-md {
+        max-width: 200px;
+    }
+    .center-image-wide {
+        width: 100%;
+    }
+}
 
 @keyframes arrow-bounce {
     0% {
