@@ -53,7 +53,7 @@ table {
     flex-direction: column;
     justify-content: space-between;
 }
-a {
+.text-link {
     font-size: 12px;
     text-transform: uppercase;
     color: #1C1C26;
