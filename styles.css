@@ -330,6 +330,12 @@ header {
     text-transform: none;
     letter-spacing: 0;
 }
+.name:hover {
+    text-decoration: underline;
+}
+.name:visited {
+    color: #1E1F20;
+}
 .work nav {
     align-self: center;
 }
