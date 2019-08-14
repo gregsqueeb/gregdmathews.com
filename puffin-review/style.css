@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 773px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    min-height: 502px;
+}
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: -1.5px;
+    max-width: 389px;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 0 15px;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+        color: #000000;
+        letter-spacing: -1.5px;
+        margin: 0 0 30px 0;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .image-shadow {
+        position: relative;
+        right: -130px;
+    }
+}
+h2 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #626262;
+    letter-spacing: -0.6px;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: -0.17px;
+    max-width: 496px;
+    margin: 0 auto 30px;
+    padding: 0 15px;
+}
+.header .image-shadow{
+    box-shadow: 0 2px 20px 0 rgba(82,87,91,0.20);
+    float: right;
+}
+.grey-break {
+    background: #EDEFF0;
+    padding: 100px 0;
+    margin-top: -50px;
+}
+.body-copy {
+    font-weight: regular;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: -0.12px;
+    line-height: 30px;
+    max-width: 496px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.example-image {
+    max-width: 856px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0 2px 20px 0 rgba(82,87,91,0.10);
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.grey-footer-line, .black-footer-line {
+    height: 1px;
+    width: calc( 100% / 3 );
+    background: #D8D8D8;
+    float: left;
+}
+.black-footer-line {
+    background: #000000;
+}
+.footer {
+    margin: 0 auto 200px;
+    max-width: 496px;
+}
+.mb100 {
+    margin-bottom: 100px;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
